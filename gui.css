@@ -1,0 +1,93 @@
+body{
+    background-color: #181027;
+    color:white;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.landingimg{
+    width: 70%;
+}
+
+.hlanding{
+   padding-top: 15%;
+   padding-left: 5%;
+}
+.toplogo{
+    width: 100%;
+}
+.navbar{
+    margin:0 0;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-top: 2%;
+    
+}
+li{
+    padding: 0 2%;
+    
+
+}
+li {
+    transition: border 3s ease; 
+  }
+  
+  li:hover {
+    padding-bottom: 2%;
+    border-bottom: 4px solid white;
+     
+  }
+  .btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    opacity: 0.6
+}
+
+.mission, .startup, .whatsbest, .potential{
+    padding: 2%;
+    background-color: #503387;
+}
+.potential{
+    font-weight: lighter;
+}
+.btn2{
+    width: 120px;
+  height: 40px;
+    background-color:#503387 ;
+    border: 2px solid #f4511e;
+    color: white;
+    padding: 10px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+.grid-12{
+    background-color: #503387 !important;
+}
+
+
+
+@media only screen and (max-width: 610px) {
+    .container{
+        display: flex;
+    }
+
+}
